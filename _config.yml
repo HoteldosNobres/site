@@ -1,0 +1,56 @@
+
+# Site Settings
+title: Terapia Inspire
+url: 'http://terapiainspire.com.br'
+logo: "http://terapiainspire.com.br/images/logo.png" # your photo (or logo) here
+description: Saiba + e agende sua Consulta com nosso terapeura Diego Santos em Araras SP. Agende sua consulta! Sessões presencial ou on-line, WhatsApp (19)97156-4256
+
+tagline: Terapeuta Diego Santos em Araras - SP
+
+#Colo Padrao
+color: c #55A3BA - #381864
+
+google_site_verification: # https://search.google.com/search-console?resource_id=sc-domain%3Acelebrantedsantos.com.br
+
+locale: pt_BR #en_US
+canonical_url: 'https://terapiainspire.com.br/'  
+timezone:  America/Sao_Paulo
+
+
+author:
+  name: Terapia Inspire
+  url: https://terapiainspire.com.br/
+
+  
+instagram: terapia_inspire
+social:
+  name: terapia_inspire
+  links:
+    - https://instagram.com/terapia_inspire 
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Tracker
+analytics: G-HCHGR8VDSX
+adsgoogle: UA-240366032-1
+      
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Build settings
+compress-site: yes
+
+encoding: "UTF-8"
+compress_html: # - http://jch.penibelst.de/
+  clippings: all
+  ignore:
+    envs: development
+
+# Development Settings
+port: 4000
+host: 127.0.0.1
+safe: false
+
