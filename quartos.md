@@ -1,6 +1,6 @@
 ---
 title: Hotel dos Nobres - Quartos
-layout:default
+layout: default
 ---
 
 <iframe src="https://hotels.cloudbeds.com/reservas/e45cDT" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; border: none;"></iframe>
