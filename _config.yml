@@ -34,6 +34,7 @@ plugins:
 # Tracker
 analytics: G-57VN4K9EJT
 adsgoogle: UA-77041161-1
+metapixel: 120428271942570
       
 sass:
   sass_dir: _sass
