@@ -4,10 +4,8 @@
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', '{{site.analytics}}');
 </script>
-
 <!-- Google tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{site.adsgoogle}}">
 </script>
@@ -15,10 +13,8 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', '{{site.adsgoogle}}');
 </script>
-
   <!-- Meta Pixel Code -->
   <script>
     !function(f,b,e,v,n,t,s)
@@ -31,8 +27,7 @@
     'https://connect.facebook.net/en_US/fbevents.js');
     fbq('init', '{{site.metapixel}}');
     fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id={{site.metapixel}}&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Meta Pixel Code -->
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"src="https://www.facebook.com/tr?id={{site.metapixel}}&ev=PageView&noscript=1"/>
+  </noscript>
