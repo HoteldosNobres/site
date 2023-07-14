@@ -1,5 +1,5 @@
 ---
-title: Hotel dos Nobres - Quartos
+title: Quartos
 layout: default
 ---
 
