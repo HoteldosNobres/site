@@ -1,0 +1,25 @@
+{% assign empresa = site.data.data.empresa %}
+<!-- Footer -->
+<footer id="footer" class="panel">
+  <div class="inner split">
+    <div>
+      <section>
+        <h2>{{ empresa.title }}</h2>
+        <p>{{ empresa.detalhes }}</p>
+      </section>
+      <section>
+        <h2>Segue nas redes sociais</h2>
+        <ul class="icons"> 
+          <li><a href="{{ empresa.instagram }}" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> 
+          <li><a href="{{ empresa.whatsapp }}" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a></li> 
+        </ul>
+      </section>
+      <p class="copyright">
+        <i class="fas fa-brands fa-creative-commons"></i>  Feito com <i class="fas fa-heart"></i> pelo <a href="https://github.com/fabiohcnobre" target="_blank" rel="nofollow">FabioHCNobre</a></a>.
+      </p>
+    </div>
+    <div>
+          <!-- contatos -->  
+    </div>
+  </div>
+</footer>
