@@ -7,8 +7,10 @@
     {% include head.html %}
     <body class="is-preload">        
 		<!-- Wrapper -->
-			<div id="wrapper">  
-            {{ content }}    
+			<div id="wrapper"> 
+            {% include header.html %} 
+            {{ content }}  
+            {% include footer.html %}  
             </div>
         {% include script.html %}
 	</body>

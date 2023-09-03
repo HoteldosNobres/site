@@ -1,7 +1,7 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
 empresa:
-     nome: Hotel dos Nobres
+     nome: Hotel dos Nobres      
+     title: Hotel dos Nobres no centro de Poços de Caldas/MG
+     whatsapp : https://api.whatsapp.com/send/?phone=553537150180&text=VimdoSite&app_absent=0
+     instagram : https://www.instagram.com/hoteldosnobres/
      detalhes: |
-              Hotel dos Nobres 
+              O Hotel dos Nobres está no Centro de Poços de Caldas, oferecemos Quarto de Casal, com duas cama de solteiro ou uma cama de casal e uma de solteiro.Ideal para familia ou vindo a trabalho.​Estamos perto do Cristo Redentor e das Thermas Antônio Carlos. Localizado a cerca de 400 metros da Praça Pedro Sanches, o hotel também fica a 500 metros do Parque Dr. Afonso Junqueira.A propriedade fica a 600 metros do Cassino Palace.​Venha hospedar conosco!
