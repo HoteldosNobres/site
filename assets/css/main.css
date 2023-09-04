@@ -163,7 +163,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #242629;
+		background: #D2154E;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1469,7 +1469,7 @@ input, select, textarea {
 		-moz-user-select: none;
 		-ms-user-select: none;
 		-webkit-user-select: none;
-		background: #1f2224;
+		background: #D2154E;
 		bottom: -1em;
 		height: 5em;
 		left: 0;
@@ -1537,7 +1537,7 @@ input, select, textarea {
 					}
 
 						#header nav > ul > li a.icon:before {
-							color: #505051;
+							color: #FFFFFF;
 							float: right;
 							margin-left: 0.75em;
 						}
@@ -2041,7 +2041,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer .copyright {
-		color: #505051;
+		color: #FFFFFF;
 		font-size: 0.9em;
 	}
 
