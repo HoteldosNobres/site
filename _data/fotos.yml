@@ -14,3 +14,21 @@ fotos:
   - title:  Entrada
     subtitle:  Foto da entrada
     imagem: imagens/fotos/entrada3.jpg
+
+  - title:  Café da Manhã
+    subtitle:  Café da manhã
+    imagem: imagens/fotos/cafedamanha.jpg
+
+    
+  - title:  Estacionamento
+    subtitle:  estacionamento
+    imagem: imagens/fotos/estacionamento.jpg
+
+    
+  - title:  Sala de Espera
+    subtitle:  Sala de espera 
+    imagem: imagens/fotos/saladeespera.jpg
+
+  - title:  Recepção
+    subtitle:  recepção
+    imagem: imagens/fotos/recepcao.jpg
