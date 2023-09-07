@@ -18,13 +18,11 @@ fotos:
   - title:  Café da Manhã
     subtitle:  Café da manhã
     imagem: imagens/fotos/cafedamanha.jpg
-
-    
+ 
   - title:  Estacionamento
     subtitle:  estacionamento
     imagem: imagens/fotos/estacionamento.jpg
-
-    
+ 
   - title:  Sala de Espera
     subtitle:  Sala de espera 
     imagem: imagens/fotos/saladeespera.jpg
@@ -32,3 +30,15 @@ fotos:
   - title:  Recepção
     subtitle:  recepção
     imagem: imagens/fotos/recepcao.jpg
+ 
+  - title:  Quarto de Casal
+    subtitle:  Quarto de Casal O
+    imagem: imagens/fotos/quartodecasal.jpg
+
+  - title:  Quarto de Solteiro
+    subtitle:  Quarto de Solteiro
+    imagem: imagens/fotos/quartodesolteiro.jpg
+
+  - title:  Quarto de Uma Cama de Casal e Uma Camas de Solteiros
+    subtitle:  Quarto de Uma Cama de Casal e Uma Camas de Solteiros
+    imagem: imagens/fotos/quartoumacamadecasaleduascamasdesolteiros.jpg
