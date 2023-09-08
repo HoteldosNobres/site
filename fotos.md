@@ -1,5 +1,5 @@
 ---
-title: Hotel dos Nobres - Instagram
+title: Fotos
 layout: defaultnovo
 ---
  
