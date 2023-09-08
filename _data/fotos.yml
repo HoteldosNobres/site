@@ -30,6 +30,10 @@ fotos:
   - title:  Recepção
     subtitle:  recepção
     imagem: imagens/fotos/recepcao.jpg
+
+  - title:  Corredor do Hotel
+    subtitle:   Corredor do Hotel
+    imagem: imagens/fotos/corredor.jpg
  
   - title:  Quarto de Casal
     subtitle:  Quarto de Casal O
@@ -42,3 +46,7 @@ fotos:
   - title:  Quarto de Uma Cama de Casal e Uma Camas de Solteiros
     subtitle:  Quarto de Uma Cama de Casal e Uma Camas de Solteiros
     imagem: imagens/fotos/quartoumacamadecasaleduascamasdesolteiros.jpg
+
+  - title:  Banheiros dos Quartos
+    subtitle:  Banheiros dos Quartos
+    imagem: imagens/fotos/banheiro.jpg
