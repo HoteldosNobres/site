@@ -9,8 +9,6 @@ tagline: Hotel dos Nobres em Poços de Caldas - MG
 #Colo Padrao
 color: D2154E #55A3BA - #381864
 
-google_site_verification: # https://search.google.com/search-console?resource_id=sc-domain%3Acelebrantedsantos.com.br
-
 locale: pt_BR #en_US
 canonical_url: 'https://hoteldosnobres.com.br/'  
 timezone:  America/Sao_Paulo
