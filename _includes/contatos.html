@@ -1,4 +1,8 @@
+{% if page.language == "en" %}
+{% assign empresa = site.data.dataen.empresa %}
+{% else %}
 {% assign empresa = site.data.data.empresa %}
+{% endif %}
 <!-- Footer -->
 <section>
   <h2>Get in touch</h2>
