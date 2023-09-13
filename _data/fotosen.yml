@@ -1,0 +1,52 @@
+#
+# Fotos
+#
+fotos:          
+  - title:  
+    subtitle:  
+    imagem: /imagens/fotos/entrada.jpg
+
+  - title:  
+    subtitle:  
+    imagem: /imagens/fotos/entrada2.jpg
+
+    
+  - title:  
+    subtitle:  
+    imagem: /imagens/fotos/entrada3.jpg
+
+  - title:  
+    subtitle:  
+    imagem: /imagens/fotos/cafedamanha.jpg
+ 
+  - title:  
+    subtitle:  
+    imagem: /imagens/fotos/estacionamento.jpg
+ 
+  - title:  
+    subtitle:  
+    imagem: /imagens/fotos/saladeespera.jpg
+
+  - title: 
+    subtitle:  
+    imagem: /imagens/fotos/recepcao.jpg
+
+  - title:  
+    subtitle:
+    imagem: /imagens/fotos/corredor.jpg
+ 
+  - title:  
+    subtitle:
+    imagem: /imagens/fotos/quartodecasal.jpg
+
+  - title:  
+    subtitle:  
+    imagem: /imagens/fotos/quartodesolteiro1.jpg
+
+  - title:  
+    subtitle:
+    imagem: /imagens/fotos/quartoumacamadecasaleduascamasdesolteiros1.jpg
+
+  - title:
+    subtitle:
+    imagem: /imagens/fotos/banheiro1.jpg
