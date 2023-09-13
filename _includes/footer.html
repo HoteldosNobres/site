@@ -8,12 +8,15 @@
   <div class="inner split">
     <div>
       <section>
-        <h2><a href="/">Início </a> - <a href="/quartos"> Quartos </a> - <a href="/fotos">Fotos</a></h2><br /> 
+        <h2><a href="{{ empresa.homelink }}"> {{ empresa.home }} </a> 
+          - <a href="{{ empresa.roomlink }}"> {{ empresa.room }} </a> 
+          - <a href="{{ empresa.photolink }}">{{ empresa.photo }}</a>
+          - <a href="{{ empresa.languagelink }}">{{ empresa.language }}</a></h2><br /> 
         <h3>{{ empresa.title }}</h3>       
         <p>{{ empresa.detalhes }}</p>
       </section>
       <section>
-        <h2>Segue nas redes sociais</h2>
+        <h2>{{ empresa.redescoais }}</h2>
         <ul class="icons"> 
           <li><a href="{{ empresa.instagram }}" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> 
           <li><a href="{{ empresa.whatsapp }}" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a></li> 

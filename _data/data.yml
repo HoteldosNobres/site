@@ -1,6 +1,16 @@
 empresa:
-     nome: Hotel dos Nobres      
+     nome: Hotel dos Nobres  
+     home: INÍCIO
+     homelink: /
+     room: Quarto
+     roomlink: /quartos
+     photo: Fotos
+     photolink: /fotos
+     language: English 
+     languagelink: /en
+     about: sobre 
      title: Hotel dos Nobres no centro de Poços de Caldas/MG
+     redesociais: Segue nas redes sociais
      whatsapp : https://api.whatsapp.com/send/?phone=553537150180&text=VimdoSite&app_absent=0
      instagram : https://www.instagram.com/hoteldosnobres/
      cor: D2154E
