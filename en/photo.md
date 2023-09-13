@@ -3,11 +3,8 @@ language: en
 title: Photos
 layout: defaultnovo
 ---
-{% if page.language == "en" %}
-{% assign fotos = site.data.fotos.fotosen %}
-{% else %}
-{% assign fotos = site.data.fotos.fotosen %}
-{% endif %} 
+
+{% assign fotos = site.data.fotosen.fotos %} 
 <div id="main">
 {% for foto in fotos %}
   <article class="thumb">

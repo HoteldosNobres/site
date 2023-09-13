@@ -2,51 +2,51 @@
 # Fotos
 #
 fotos:          
-  - title:  
-    subtitle:  
+  - title:  Hotel
+    subtitle:  Hotel
     imagem: /imagens/fotos/entrada.jpg
 
-  - title:  
-    subtitle:  
+  - title:  Hotel
+    subtitle:  Hotel
     imagem: /imagens/fotos/entrada2.jpg
 
     
-  - title:  
-    subtitle:  
+  - title:  Hotel
+    subtitle:  Hotel
     imagem: /imagens/fotos/entrada3.jpg
 
-  - title:  
-    subtitle:  
+  - title:  breakfast
+    subtitle: breakfast 
     imagem: /imagens/fotos/cafedamanha.jpg
  
-  - title:  
-    subtitle:  
+  - title:  parking
+    subtitle:  parking
     imagem: /imagens/fotos/estacionamento.jpg
  
-  - title:  
-    subtitle:  
+  - title:  Hotel
+    subtitle:  Hotel
     imagem: /imagens/fotos/saladeespera.jpg
 
-  - title: 
-    subtitle:  
+  - title: Reception
+    subtitle:  Reception
     imagem: /imagens/fotos/recepcao.jpg
 
-  - title:  
-    subtitle:
+  - title:  Hotel
+    subtitle: Hotel
     imagem: /imagens/fotos/corredor.jpg
  
-  - title:  
-    subtitle:
+  - title:  Room
+    subtitle: Room
     imagem: /imagens/fotos/quartodecasal.jpg
 
-  - title:  
-    subtitle:  
+  - title:  Room
+    subtitle:  Room
     imagem: /imagens/fotos/quartodesolteiro1.jpg
 
-  - title:  
-    subtitle:
+  - title:  Room
+    subtitle: Room
     imagem: /imagens/fotos/quartoumacamadecasaleduascamasdesolteiros1.jpg
 
-  - title:
-    subtitle:
+  - title: Bathroom
+    subtitle: Bathroom
     imagem: /imagens/fotos/banheiro1.jpg
