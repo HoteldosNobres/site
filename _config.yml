@@ -1,10 +1,11 @@
 # Site Settings
 title: Hotel dos Nobres
+tagline: Hotel dos Nobres
 url: 'https://hoteldosnobres.com.br'
 logo: "https://hoteldosnobres.com.br/imagens/logo.png" # your photo (or logo) here
 description: O Hotel dos Nobres está no Centro de Poços de Caldas, oferecemos Quarto de Casal, com duas cama de solteiro ou uma cama de casal e uma de solteiro.Ideal para familia ou vindo a trabalho.​Estamos perto do Cristo Redentor e das Thermas Antônio Carlos. Localizado a cerca de 400 metros da Praça Pedro Sanches, o hotel também fica a 500 metros do Parque Dr. Afonso Junqueira.A propriedade fica a 600 metros do Cassino Palace.​Venha hospedar conosco! ou on-line, WhatsApp (19)97156-4256
 
-tagline: Hotel dos Nobres em Poços de Caldas - MG
+
 
 #Colo Padrao
 color: D2154E #55A3BA - #381864
