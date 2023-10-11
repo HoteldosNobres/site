@@ -1054,18 +1054,19 @@ input, select, textarea {
 /* Panel */
 
 	.panel {
-		padding: 4em 4em 2em 4em ;
-		-moz-transform: translateY(100vh);
-		-webkit-transform: translateY(100vh);
-		-ms-transform: translateY(100vh);
-		transform: translateY(100vh);
+		padding: 4em 2em 2em 2em ;
+		-moz-transform: translateY(-100vh);
+		-webkit-transform: translateY(-100vh);
+		-ms-transform: translateY(-100vh);
+		transform: translateY(-100vh);
 		-moz-transition: -moz-transform 0.5s ease;
 		-webkit-transition: -webkit-transform 0.5s ease;
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
-		-webkit-overflow-scrolling: touch;
+		-webkit-overflow-scrolling: touch; 
+		top: calc(4em - 1px);
 		background: rgba(36, 38, 41, 0.975);
-		bottom: 4em;
+		bottom: auto;
 		left: 0;
 		max-height: calc(80vh - 4em);
 		overflow-y: auto;
@@ -1469,22 +1470,23 @@ input, select, textarea {
 		-ms-user-select: none;
 		-webkit-user-select: none;
 		background: #D2154E;
-		bottom: -1em;
-		height: 5em;
+		bottom: auto;
+		height: 4em;
 		left: 0;
 		line-height: 4em;
-		padding: 0 1.5em;
+		padding: 0 1em;
 		position: fixed;
 		user-select: none;
 		width: 100%;
 		z-index: 10002;
+		top: 0;
 	}
 
 		body.is-preload #header {
-			-moz-transform: translateY(4em);
-			-webkit-transform: translateY(4em);
-			-ms-transform: translateY(4em);
-			transform: translateY(4em);
+			-moz-transform: translateY(-3.4em);
+			-webkit-transform: translateY(-3.4em);
+			-ms-transform: translateY(-3.4em);
+			transform: translateY(-3.4em);
 		}
 
 		#header h1 {
