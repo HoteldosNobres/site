@@ -1,6 +1,7 @@
 empresa:
      nome: Hotel dos Nobres   
      home: Home
+     hometitle: 'Poços de Caldas'
      homelink: /en/
      room: Room
      roomlink: /en/room
