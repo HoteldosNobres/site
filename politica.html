@@ -1,0 +1,15 @@
+---
+title: Nossos Quartos
+layout: defaultnovo
+---
+{% if page.language == "en" %}
+{% assign politica = site.data.politica.politica %}
+{% else %}
+{% assign politica = site.data.politica.politica %}
+{% endif %}
+    <br/>
+    <br/>
+    <br/>
+<h1  style="text-align:center; font-size:26px;"> Leia com Atenção -  <a href="/politica.pdf" download> Versão em PDF </a></h1>
+<h1  style="text-align:center; font-size:26px;"> Política e Normas do Hotel </h1>
+<p  style="text-align:center;" > {{ politica.detalhes | markdownify }} </p>
