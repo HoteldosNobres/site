@@ -1473,7 +1473,7 @@ input, select, textarea {
 		left: 0;
 		line-height: 4em;
 		padding: 0 1em;
-		position: relative;
+		position: sticky;
 		user-select: none;
 		width: 100%;
 		z-index: 10002;
@@ -1552,7 +1552,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		body {
-			padding: 4em 0 0 0;
+			padding: 0 0 4em 0;
 		}
 
 		#header {
