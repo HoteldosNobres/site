@@ -1476,7 +1476,7 @@ input, select, textarea {
 		position: relative;
 		user-select: none;
 		width: 100%;
-		z-index: 99999;
+		z-index: 10002;
 		top: 0;
 	}
 
