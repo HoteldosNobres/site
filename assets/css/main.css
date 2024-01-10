@@ -2047,3 +2047,22 @@ input, select, textarea {
 		#footer .copyright a {
 			color: inherit;
 		}
+
+
+/* content */
+
+#content {
+	background-color: #FFFFFF; 
+	color: #000000; 
+    text-align: center; 
+
+}
+#content .block-element {
+    margin: auto;
+}
+
+	#content  h1 {
+		color: #000000; 
+	}
+
+	 
