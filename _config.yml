@@ -11,6 +11,8 @@ color: D2154E #55A3BA - #381864
 locale: pt_BR #en_US
 canonical_url: 'https://hoteldosnobres.com.br/'  
 timezone:  America/Sao_Paulo
+include: [".well-known"]
+
 
 author:
   name: 'Hotel dos Nobres'
@@ -35,6 +37,8 @@ metapixel: 120428271942570
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
 
 # Build settings
 compress-site: yes
