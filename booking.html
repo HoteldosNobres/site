@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirecionamento para o sistema</title>
+    <script>
+        // Função modificada para obter a parte da URL após a última barra
+        function getParametroAposBarra() {
+            var urlAtual = window.location.href;
+            var partes = urlAtual.split('/');
+            // Retorna o último elemento da array, que seria o parâmetro desejado
+            return partes.pop() || partes.pop();  // Lida com uma barra final na URL
+        }
+
+        // Função para redirecionar com base no parâmetro
+        function redirecionarComBaseNoParametro() {
+            var parametro = getParametroAposBarra(); // Agora obtém o parâmetro após a barra
+            if (parametro) {
+                // Construa sua URL de destino aqui. Exemplo:
+                var urlDestino = 'https://apihoteldosnobres.azurewebsites.net/booking/' + parametro;
+                window.location.href = urlDestino; // Redireciona para a URL de destino
+            }
+        }
+    </script>
+</head>
+<body onload="redirecionarComBaseNoParametro();">
+    <!-- O conteúdo da página aqui -->
+</body>
+</html>
