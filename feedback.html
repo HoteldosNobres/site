@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sistema Hotel dos Nobres</title>
+    <script>
+        // Função para redirecionar com base no parâmetro na URL
+        function redirecionarComBaseNoParametro() {
+            // Extrai o segmento após o '?' na URL
+            const parametrourl = window.location.href.split('?')[1];
+            const parametro = parametrourl.split('=')[1];
+
+            if (parametro) {
+                // Construa sua URL de destino aqui. Exemplo:
+                const urlDestino = 'https://apihoteldosnobres.azurewebsites.net/feedback?numero=' + parametro;
+                window.location.href = urlDestino; // Redireciona para a URL de destino
+            }
+        }
+    </script>
+</head>
+<body onload="redirecionarComBaseNoParametro();">
+    <!-- O conteúdo da página aqui -->
+</body>
+</html>
