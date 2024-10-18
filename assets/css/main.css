@@ -2065,4 +2065,6 @@ input, select, textarea {
 		color: #000000; 
 	}
 
-	 
+	.be-immersive-experience-header button.close-button { 
+		color: black !important;
+		}
