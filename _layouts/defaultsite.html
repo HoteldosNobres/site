@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<!--
+	Feito com <3 pelo FabioHCNobre
+    Aqui
+-->  
+<html lang="pt-br" >         
+    {% include head.html %}
+    <body class="is-preload" >    
+        <div id="fullScreenDiv">
+            {{ content }}    
+            </div>
+        {% include whatsapp.html %} 
+        <script>
+            // Função para ajustar a altura da div
+            function ajustarAlturaDiv() {
+                var alturaJanela = window.innerHeight;
+                var div = document.getElementById('fullScreenDiv');
+                div.style.height = alturaJanela + 'px';
+            }
+    
+            // Ajusta a altura da div quando a página é carregada
+            window.onload = ajustarAlturaDiv;
+    
+            // Ajusta a altura da div quando a janela é redimensionada
+            window.onresize = ajustarAlturaDiv;
+        </script>
+    </body>
+    </html>
