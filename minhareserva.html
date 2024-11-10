@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Hotel dos Nobres - Minha Reserva</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <link href="https://apihoteldosnobres.azurewebsites.net/_content/MudBlazor/MudBlazor.min.css" rel="stylesheet" />
+    <script>
+        function obterUrlDestino() {
+            const parametro = window.location.href.split('?')[1];
+
+            if (parametro) {
+                const urlDestino = 'https://apihoteldosnobres.azurewebsites.net/booking/' + parametro;
+                return urlDestino; // Retorna a URL de destino
+            }
+            return null;
+        }
+
+        // Função para ajustar a altura da div
+        function ajustarAlturaDiv() {
+            var alturaJanela = window.innerHeight;
+            var div = document.getElementById('fullScreenDiv');
+            div.style.height = alturaJanela + 'px';
+        }
+
+        // Ajusta a altura da div quando a página é carregada
+        window.onload = function() {
+            ajustarAlturaDiv();
+
+            // Define o src do iframe dinamicamente
+            var iframe = document.getElementById('iframeReserva');
+            var urlDestino = obterUrlDestino();
+            if (urlDestino) {
+                iframe.src = urlDestino;
+            } else {
+                console.log('Nenhum parâmetro encontrado na URL.');
+            }
+        };
+
+        // Ajusta a altura da div quando a janela é redimensionada
+        window.onresize = ajustarAlturaDiv;
+    </script>
+    <script src="https://apihoteldosnobres.azurewebsites.net/_content/MudBlazor/MudBlazor.min.js"></script>
+</head>
+<body class="is-preload">
+    <div id="fullScreenDiv">
+        <iframe id="iframeReserva" width="98%" height="98%"></iframe>
+    </div>
+</body>
+</html>
