@@ -6,7 +6,7 @@
         // Função para redirecionar com base no parâmetro na URL
         function redirecionarComBaseNoParametroReserva() {
              // Obtém a URL atual
-            const parametro = window.location.href.split('?')[1];
+            const parametro = window.location.href.split('reserva/')[1];
 
             if (parametro) { 
                 const numero  = parametro.split('numero=')[1];
