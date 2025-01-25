@@ -2,7 +2,7 @@
 title: Fotos do Hotel
 layout: defaultnovo 
 description: Aqui você encontra fotos do Hotel dos Nobres. Confira todas as nossas fotos.
-image: https://hoteldosnobres.com.br/imagens/logo.png
+image: https://hoteldosnobres.com.br/imagens/banner.jpg
 ---
  
 {% assign fotos = site.data.fotos.fotos %} 
