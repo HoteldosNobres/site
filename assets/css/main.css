@@ -116,6 +116,39 @@ table {
 body {
 	-webkit-text-size-adjust: none;
 }
+.container {
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px;
+}
+.header {
+	text-align: center;
+	padding: 50px 0;
+}
+.header h1 {
+	margin: 0;
+	font-size: 2.5em;
+}
+.section {
+	margin-bottom: 40px;
+}
+.section h2 {
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+.section p {
+	font-size: 1.2em;
+	line-height: 1.6;
+}
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+.gallery img {
+	width: calc(33.333% - 10px);
+	height: auto;
+}
 
 mark {
 	background-color: transparent;
