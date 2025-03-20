@@ -1,10 +1,11 @@
 ---
-title:
+language: en
+title: 'Home'
 layout: defaultnovo 
-description: Aqui você encontra fotos do Hotel dos Nobres. Confira todas as nossas fotos.
+description: Here you will find photos of Hotel dos Nobres. Check out all our photos.
 image: https://hoteldosnobres.com.br/imagens/banner.jpg
 ---
-{% assign fotos = site.data.fotos.fotos %}
+{% assign fotos = site.data.fotosen.fotos %}
 {% if page.language == "en" %}
 {% assign empresa = site.data.dataen.empresa %}
 {% else %}
@@ -14,7 +15,7 @@ image: https://hoteldosnobres.com.br/imagens/banner.jpg
   <div style="background-image: url('{{ fotos[0].imagem }}'); background-size: cover; background-position: center; padding: 20px; height: 100%; display: flex; justify-content: center; align-items: center;"> 
     <div style="text-align: center; border: 2px solid #000; padding: 20px; background-color: rgba(255, 255, 255, 0.7); border-radius: 10px;">
       <section > 
-       <p>O Hotel dos Nobres estará passando por um período de atualização do site 👨‍💻 . Em breve, teremos um novo site, melhor e com mais novidades para você! Fique ligado! 🚀</p>
+          <p>😊 The Hotel dos Nobres will be undergoing a website update. Soon, we will have a new site, better and with more news for you! Stay tuned! 🚀</p>
           <h2 style="color: red;">{{ empresa.redesociais }}</h2>
           <ul style="color: red;" class="icons"> 
             <li><a href="{{ empresa.instagram }}"><span style="color: red;" class="label"><i class="fab fa-instagram"></i> Instagram</span></a></li> 
@@ -23,4 +24,4 @@ image: https://hoteldosnobres.com.br/imagens/banner.jpg
       </section>
     </div>
   </div>
-</div>
+</div> 
