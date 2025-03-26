@@ -1,16 +1,11 @@
 <head>
   <meta charset="utf-8" />
-  {% if site.color %}
-    <meta name="theme-color" content="{{ site.color }}">
-  {% endif%}
+  {% if site.color %}<meta name="theme-color" content="{{ site.color }}">{% endif%}
+  <link rel="shortcut icon" href="favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
   <link rel="stylesheet" href="/assets/css/main.css" />
   <noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
-
-  {% if page.title == 'Home' %}
-  <title> Hotel dos Nobres </title>
-  {% endif%}
-
+  {% if page.title == 'Home' %}<title> Hotel dos Nobres </title>{% endif%}
   {% seo %} 
   {% include analytics.html %}
 </head>
