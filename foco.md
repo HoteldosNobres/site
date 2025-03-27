@@ -1,7 +1,5 @@
 ---
-language: pt 
-layout: defaultsite
-title: 'Sistema'
-
+title: Hotel dos Nobres
+layout: defaultredirecionamento
 ---
-<iframe src="https://cliente-extranet.soufoco.com.br/?pessoa_id=6798" width="100%" height="100%"></iframe> 
+<meta http-equiv="refresh" content="1; URL='https://cliente-extranet.soufoco.com.br/?pessoa_id=6798'"/>
